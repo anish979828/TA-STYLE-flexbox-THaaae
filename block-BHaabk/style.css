@@ -1,0 +1,125 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* custom style  */
+/* header  */
+.header {
+    background-color: darkblue;
+} 
+.first-section {
+    height: 50px;
+}
+.header-img {
+	height: 50px;
+    width: 150px;
+    object-fit: cover;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav {
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+}
+/* article section  */
+.article-section {
+    background-color: cornflowerblue;
+}
+.article-section .flex {
+    align-items: flex-start;
+}
+.container {
+    max-width:80%;
+    margin: 0 auto;
+    padding: 60px;
+    box-sizing: border-box;
+}
+.article-col {
+    width: 50%;
+}
+h1 {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+p {
+    font-size: large;
+    line-height: 1.7;
+}
+.article-img {
+    width: 100%;
+}
+/* gallery section  */
+.gallery-img {
+    width: 100%;
+    height: 200px;
+}
+.gallery-col {
+    width: 30%;
+    margin: 1.5%;    
+}
+.gallery-section .flex {
+    flex-wrap: wrap;
+}
+/* footer  */
+.footer {
+    background-color: blue;
+    padding: 20px;
+
+}
+nav {
+    text-align: center;
+}
+
+
+
+
