@@ -1,0 +1,98 @@
+<!-- 
+- Create a page using flexbox according to the layout shown below.
+
+![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-2.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper. 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title  -->
+    <title>flexbox</title>
+    <!-- stylesheet  -->
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/53765f52cd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- header  -->
+    <header>
+        <div class="container flex">
+            <a href="#" class="brand">
+                <img src="./brand logo.jpg" alt="brand logo">
+            </a>
+            <nav class="header-nav">
+                <a href="#">
+                    <img src="./assets/icons/bell.svg" alt="">
+                </a>
+                <span>Sarah Jone</span>
+                <a href="#">
+                    <img src="./assets/icons/user.svg" alt="user">
+                </a>
+            </nav>
+         </div>
+        </header>
+        <!-- main content  -->
+        <main>
+            <div class="container flex padding">
+                <!-- aside  -->
+                <aside>
+                    <nav class="aside-nav nav-flex">
+                        <a href="#">
+                            <img src="./assets/icons/dashboard.svg" alt="img1">
+                            <span>Dashboard</span>
+                        </a>
+                        <a href="#" class="active">
+                            <img  src="./assets/icons/article.svg" alt="img2">
+                            <span>Article</span>
+                        </a>
+                        <a href="#">
+                            <img src="./assets/icons/analytics.svg" alt="img3">
+                            <span>Analytics</span>
+                        </a>
+                        <a href="#">
+                            <img src="./assets/icons/inbox.svg" alt="img4">
+                            <span>Inbox</span>
+                        </a>
+                        <a href="#">
+                            <img src="./assets/icons/setting.svg" alt="img5">
+                            <span>Setting</span>
+                        </a>
+                     </nav>
+                     <button class="logout-btn">
+                        <img src="./assets/icons/log-out.svg" alt="log out">
+                        <span>Log Out</span>
+                    </button>
+                </aside>
+                <!-- article  -->
+                <article>
+                    <img src="./assets/01.png" alt="article img">
+                    <h1>why we are doing Altcampus?</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci tempora saepe nulla nesciunt! Harum fugit odio eaque nulla sunt, iusto aliquam voluptate maxime ea corrupti laborum placeat unde! Sit, iusto!</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde id incidunt quidem facere, dicta ducimus veniam tempore eveniet odio, commodi itaque! Excepturi harum provident ut vel omnis laudantium inventore doloribus!</p>
+                    <button class="btn">
+                        Read More
+                    </button>
+                </article>
+             </div>
+            </main>
+            <!-- footer  -->
+            <footer>
+                <div class="container flex">
+                    <small class="footer">&copy Altcampus</small>
+                    <nav class="footer-nav">
+                        <a href="#" class="nav"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="nav"><i class="fa-brands fa-twitter"></i></a>
+                    </nav>
+
+                </div>
+
+            </footer>
+        
+    
+</body>
+</html>
