@@ -1,0 +1,173 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom style  */
+/* general  */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.padding {
+    padding: 30px 40px;
+}
+
+/* header  */
+header {
+    background-color:#222946;
+    padding: 20px;
+    color: white;
+    font-size: large;
+}
+.brand img {
+    width: 150px;
+}
+.header-nav img { 
+    margin-right: 30px;
+    vertical-align: middle;
+}
+a {
+    margin-left: 10px;
+    vertical-align: middle;
+}
+/* aside  */
+aside {
+    background-color:#a3caea;
+    padding:32px;
+    border-radius: 20px;
+    flex: 0 1 25%;
+    align-self: stretch;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.nav-flex{
+    display: flex;
+    flex-direction: column;
+}
+.aside-nav a {
+    text-decoration: none;
+    font-size: x-large;
+    padding: 10px;
+    margin-top: 20px;
+    color: #222946;
+}
+.aside-nav a img {
+    margin-right: 20px;
+
+}
+ .aside-nav .active {
+    border: 2px solid #ff7b29;
+    color:#ff7b29;
+}
+.logout-btn {
+    border: 0;
+    box-shadow: none;
+    padding: 16px 32px;
+    background-color: #ffffff;
+    font-size: 20px;
+    width: 100%;
+    border-radius: 4px;
+    text-align: left;
+    font-weight: 700;
+}
+.logout-btn img {
+    margin-right: 12px;
+    vertical-align: middle;
+}
+/* article  */
+article {
+    flex: 0 1 65%;
+    background-color: #f2f8fd;
+    padding: 20px;
+    border-radius: 20px;
+}
+h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    color: #222946;
+}
+p{ 
+    font-size: 20px;
+    margin-top: 20px;
+}
+.btn {
+    margin-top: 20px;
+    color: white;
+    font-size: large;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color:#37b667;
+    border: none;
+    border-radius: 10px;
+}
+/* footer  */
+footer {
+    background-color: #222946;
+    padding: 20px;
+}
+.footer {
+    color: white;
+    font-size: large;
+}
+.nav {
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
